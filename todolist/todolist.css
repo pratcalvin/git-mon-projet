@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #ffffff;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.champs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type='text'] {
+    width: 300px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(221, 221, 221, 0.493);
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+ul li {
+    width: 50%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgba(221, 221, 221, 0.493);
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul li span {
+    flex: 1;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+ion-icon {
+    font-size: 20px;
+    background: rgba(221, 221, 221, 0.493);
+    color: rgb(54, 54, 54);
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
